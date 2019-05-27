@@ -1,0 +1,159 @@
+body {
+	background-color: #E7E7E7;
+	margin: 0;
+}
+
+nav {
+	background-color: #82D45A;
+	padding: 6px;
+	font-family: Trebuchet MS;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+}
+
+nav p {
+	margin: 0;
+	margin-left: 40px;
+	font-size: 130%;
+}
+
+.container {
+	position: relative;
+	text-align: center;
+}
+
+.container img {
+	width: 100%;
+	min-width: 800px;
+}
+
+.container::after {
+ box-shadow: inset 0 5px 10px 0 rgba(0,0,0,0.25);
+ content: '';
+ display: block;
+ height: 99.3%;
+ position: absolute;
+ top: 0;
+ width: 100%;
+}
+
+.center-left {
+	position: absolute;
+  	top: 44%;
+  	left: 50%;
+  	transform: translate(-110%, -50%);
+  	padding-bottom: 50px;
+  	width: 350px;
+  	height: 100px;
+}
+
+.center-left h1 {
+	color: white;
+}
+
+.center-left p {
+	color: #393939;
+	background: #82D45A;
+	padding: 5px;
+	padding-left: 10px; 
+	padding-right: 10px;
+	width: 83px;
+	border-radius: 5%;
+	font-weight: bold;
+	float: right;
+	margin-right: 55px;
+	margin-top: -10px;
+	font-family: Trebuchet MS;
+	font-size: 95%;
+
+}
+
+.clients {
+	background-color: #E7E7E7;
+	font-family: Trebuchet MS;
+}
+
+.clients-text {
+	margin-left: 10%;
+	margin-top: 40px;
+	font-weight: bold;
+	font-size: 130%;
+	color: #393939;
+	font-size: 18px;
+}
+
+.client-logos {
+	width: 100%;
+	text-align: center;
+}
+
+.client-logos img:hover {
+	transform: scale(1.05);
+	transition: transform .5s ease;
+}
+
+.logo-items {
+	width: 150px;
+	padding: 5px;
+	margin-right: 50px;
+	margin-left: 50px;
+	display: inline-block;
+	align-items: center;
+	vertical-align: middle;
+}
+
+.client-logos p {
+	color: #393939;
+	background: #82D45A;
+	padding: 5px;
+	padding-left: 10px; 
+	padding-right: 10px;
+	border-radius: 5%;
+	align-content: right;
+	font-weight: bold;
+	width: 50px
+}
+
+footer {
+	background-color: #4A4846;
+	padding: 10px;
+	box-shadow: inset 0 5px 10px 0 rgba(0,0,0,0.25);
+	font-family: Trebuchet MS;
+	font-size: 90%;
+}
+
+footer ul {
+	list-style-type: none;
+}
+
+footer li {
+	color: white;
+	padding-top: 10px
+}
+
+.column {
+	float: left;
+	width: 24%;
+}
+
+footer ul:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+footer ul img {
+	width: 30px;
+}
+
+.right-icon {
+	margin-left: 8px;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+}
