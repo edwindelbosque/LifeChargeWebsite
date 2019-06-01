@@ -84,6 +84,59 @@ nav p {
 
 }
 
+.box-slide {
+	display: inline-block;
+}
+
+.box-slide span {
+	display: absolute;
+	overflow: hidden;
+	top: 0;
+	animation: animate 10s linear infinite;
+	opacity: 0;
+	color: #f3ffa8;
+}
+@keyframes animate {	
+	0%
+	{
+		opacity: 0;
+		transofrm: translateY(-50px);
+	}
+	2%
+	{
+		opacity: 1;
+		transofrm: translateY(0px);
+	}
+	10%
+	{
+		opacity: 1;
+		transofrm: translateY(0px);
+	}
+	20%
+	{
+		opacity: 0;
+		transofrm: translateY(50px);
+	}
+	100%
+	{
+		opacity: 0;
+		transofrm: translateY(50px);
+	}
+}
+
+.box-slide span:nth-child(1) {
+	animation-delay: 0.5s;
+}
+.box-slide span:nth-child(3) {
+	animation-delay: 3s;
+}
+.box-slide span:nth-child(2) {
+	animation-delay: 4s;
+}
+.box-slide span:nth-child(4) {
+	animation-delay: 6s;
+}
+
 .clients {
 	background-color: #E7E7E7;
 	font-family: Trebuchet MS;
