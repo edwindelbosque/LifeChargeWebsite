@@ -48,7 +48,7 @@ nav p {
 	height    : 100%;
 	width     : 100%;
 	margin    : auto;
-	background: url(../images/main_image/main_2_crop.jpg) no-repeat 50% 50%;
+	background: url(../images/main_image/main_2.jpg) no-repeat 50% 50%;
 	display   : table;
 	top       : 0;
 	background-size: cover;
@@ -70,7 +70,7 @@ nav p {
 .content h1 {
 	font-family: "Raleway", sans-serif;
 	color: #f9f3f4;
-	text-shadow: 0px 0px 8px black;
+	text-shadow: 0px 0px 8px #4F4F4F;
 	font-size: 400%;
 }
 
@@ -88,8 +88,7 @@ nav p {
 .btn:hover {
 	color: #FFF;
 	border: solid #FFF 3px;
-	transform: 3s;
-}
+	transition: color white 2s ease;}
 
 @media screen and (max-width: 768px) {
 	.content h1 {
