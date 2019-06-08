@@ -75,20 +75,20 @@ nav p {
 }
 
 .btn {
-	border-radius: 9px;
-	font-family: "Oswald", sans-serif;
-	color: #82D45A;
-	font-size: 120%;
-	padding: 10px 20px;
+	border-radius: 4px;
+	font-family: sans-serif;
+	color: #393939;
+	font-size: %130;
+	padding: 7px 15px;
 	border: solid #82D45A 3px;
 	text-decoration: none;
-	text-transform: uppercase;
+	font-weight: bold;
+	background-color: #82D45A;
 }
 
 .btn:hover {
-	color: #FFF;
-	border: solid #FFF 3px;
-	transition: color white 2s ease;}
+	color: white;
+}
 
 @media screen and (max-width: 768px) {
 	.content h1 {
@@ -200,6 +200,14 @@ nav p {
 	width        : 50px
 }
 
+.more {
+	display: inline-block;
+}
+
+.more p:hover {
+	color: #FFF;
+}
+
 footer {
 	background-color: #4A4846;
 	padding         : 10px;
@@ -240,3 +248,24 @@ footer a {
 	text-decoration: none;
 	color          : white;
 }
+
+input {
+	border: none;
+	border-radius: 3px;
+	padding: 5px;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.text {
+	display: inline-block;
+	margin: 0 0 15px 40px;
+}
+
+.submit {
+	display: inline-block;
+}
+
+
+
