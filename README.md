@@ -1,4 +1,4 @@
-# LifeCharge
+# LifeCharge Website
 Creating Nick's website for Mod 0 Capstone project.
 - This is a website I am building for my partner. A little more backstory:
 - He has been working at a company for around 6 years as something similar to a life coach. 
